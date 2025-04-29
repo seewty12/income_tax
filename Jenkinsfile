@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("checkout code"){
             steps{
-                git crendialsid:"demo_project1 ",url:https://github.com/seewty12/income_tax.git;branch:"main"
+                git credentialsId:"demo_project1 ",url:"https://github.com/seewty12/income_tax.git" , branch:"main"
           }
 
         }
